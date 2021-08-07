@@ -7,10 +7,44 @@ Version: 0.1.0
 */
 
 .comix-videotheque-post {
-  padding: 2rem 0;
+  flex: 1;
+  padding: 6rem 0; 
+  background: rgba(255, 255, 255, 0.7);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 3px;
 }
 
 .comix-videotheque-post > .comix-videotheque-post__btn {
-  padding: 0.6rem;
-  background: #0675c4;
+  padding: 8px 16px;
+  background: #0066bf;
+  border-radius: 3px;
+  margin-top: 16px;
+}
+
+.comix-videotheque-post > .comix-videotheque-post__btn:hover {
+  background: white;
+  color: #0066bf;
+}
+
+.comix-videotheque-post > .comix-videotheque-post__text {
+  display: block;
+  color: black;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.comix-videotheque-video {
+  margin: auto;
+  margin-right: 16px;
+}
+
+.comix-videotheque-video > iframe {
+  display: block;
+}
+
+.comix-row {
+  align-items: center;
 }
