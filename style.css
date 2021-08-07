@@ -1,0 +1,16 @@
+/*
+Theme Name: Seek Pro Comixtrême
+Description: Seek Pro modifié pour ComixTrême
+Author: Mendy Dihars
+Template: seek-pro
+Version: 0.1.0
+*/
+
+.comix-videotheque-post {
+  padding: 2rem 0;
+}
+
+.comix-videotheque-post > .comix-videotheque-post__btn {
+  padding: 0.6rem;
+  background: #0675c4;
+}
